@@ -3,7 +3,9 @@
     <div class="container">
 
       <div class="assort-top">
-        <div class="top-left"></div>
+        <div class="top-left">
+          <good-class></good-class>
+        </div>
         <div class="top-center"></div>
         <div class="top-right"></div>
       </div>
@@ -17,12 +19,16 @@
 </template>
 
 <script>
+import GoodClass from '@/components/goodClass'
 export default {
   name: "assortment",
   data() {
     return {
       msg: ""
     };
+  },
+  components:{
+    GoodClass
   }
 };
 </script>

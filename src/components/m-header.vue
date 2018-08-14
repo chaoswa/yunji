@@ -30,7 +30,7 @@ export default {
   width: 19.2rem;
   height: .34rem;
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: .12rem;
   background: #3E3B3B;
 }
 .header-content{
@@ -50,11 +50,16 @@ export default {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
-  width: 4.46rem;
+  width: 6rem;
   height: 100%;
 }
 .list-item{
   height: 100%;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  font-size: .12rem;
   line-height: .34rem;
 }
 </style>

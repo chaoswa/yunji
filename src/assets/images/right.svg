@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>右边</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="员工商城" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="积分页面" transform="translate(-1528.000000, -295.000000)">
+            <g id="Group-Copy" transform="translate(1528.000000, 295.000000)">
+                <rect id="Rectangle-6" x="0" y="0" width="12" height="12"></rect>
+                <path d="M3.64644661,1.35355339 C3.45118446,1.15829124 3.45118446,0.841708755 3.64644661,0.646446609 C3.84170876,0.451184464 4.15829124,0.451184464 4.35355339,0.646446609 L9.35355339,5.64644661 C9.54881554,5.84170876 9.54881554,6.15829124 9.35355339,6.35355339 L4.35355339,11.3535534 C4.15829124,11.5488155 3.84170876,11.5488155 3.64644661,11.3535534 C3.45118446,11.1582912 3.45118446,10.8417088 3.64644661,10.6464466 L8.29289322,6 L3.64644661,1.35355339 Z" id="Line" fill="#BBBBBB" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

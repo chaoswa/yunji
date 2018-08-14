@@ -36,7 +36,7 @@ export default {
   flex-flow: column;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 19.2rem;
   height: 1.22rem;
   font-size: .12rem;
   color: #333333;
@@ -56,7 +56,9 @@ export default {
   font-size: .16rem;
   line-height: .3rem;
   color: #FFFFFF;
-  background-image: linear-gradient(-118deg, #F43F54 6%, #D73548 100%);
+  background:url(../assets/images/mask.png);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
 }
 .title-list{
   height: .21rem;

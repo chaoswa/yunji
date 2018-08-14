@@ -3,8 +3,15 @@
     <div class="top-left">云集</div>
     <div class="top-center">
       <div class="center-up">
-        <input type="text" class="search-input">
-        <button class="search-button"></button>
+        <div class="center-search">
+          <img src="../assets/images/search.svg" class="search-icon-left">
+          <input type="text" class="search-input" placeholder="雅思兰戴">
+        </div>
+        
+        <button class="search-button">
+          <img src="../assets/images/search_2.svg" class="search-icon">
+        </button>
+ 
       </div>
       <div class="center-down">
         <a class="down-txt">面膜</a>
@@ -13,8 +20,7 @@
       </div>
     </div>
     
-    <div class="top-right">我的购物车</div>
-    <div class="top-right">我的购物车</div>
+    <div class="top-right"><img src="../assets/images/shop.svg" class="right-shop"> 我的购物车</div>
   </div>
 </template>
 
@@ -30,7 +36,7 @@ export default {
 
 <style scoped>
 .m-search{
-  width:19.2rem;
+  width:11.9rem;
   height: .36rem;
   display: flex;
   justify-content: center;
@@ -38,8 +44,9 @@ export default {
   margin-top: .2rem;
 }
 .top-left{
-  width: 3.6rem;
+  width: 2rem;
   height: .35rem;
+  margin-right: .5rem;
   line-height: .35rem;
 }
 .top-center{
@@ -49,6 +56,7 @@ export default {
   height: .6rem;
 }
 .center-up{
+  position: relative;
   display: flex;
   width: 100%;
   height: .36rem;
@@ -70,24 +78,52 @@ export default {
   font-family: "MicrosoftYaHei";
   color: #666666;
 }
-.search-input{
+.center-search{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width:5.38rem;
   height:.32rem;
   outline: none;
   border: 2px solid #EF4766; 
 }
+.search-input{
+  width:5rem;
+  height:.32rem;
+  outline: none;
+}
 .search-button{
+  position: relative;
   width: .58rem;
   height: .34rem;
   border: none;
   background: #EF4766;
 }
+.search-icon{
+  position: absolute;
+  top:0.08rem;
+  left: .2rem;
+  width: .18rem;
+  height: .18rem;
+}
+.search-icon-left{
+  width: .18rem;
+  height: .18rem;
+}
 
 .top-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1.85rem;
   height: .36rem;
   line-height: .36rem;
   margin-left: .5rem;
   border: 1px solid #DDDDDD;
+}
+.right-shop{
+  width: .2rem;
+  height:.2rem;
+  margin-right: 0.05rem;
 }
 </style>
