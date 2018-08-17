@@ -3,9 +3,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import { Button,Input } from 'element-ui';
+import {Carousel,CarouselItem,Progress,Breadcrumb,BreadcrumbItem} from 'element-ui';
 
-Vue.use(Button).use(Input);
+Vue.use(Carousel).use(CarouselItem).use(Progress).use(Breadcrumb).use(BreadcrumbItem);
 
 import './common/less/reset.less'
 

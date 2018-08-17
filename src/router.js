@@ -11,6 +11,7 @@ import Exchange from '@/views/exchange'
 import Sale from '@/views/sale'
 import SecKill from '@/views/secKill'
 import Swap from '@/views/swap'
+import DetailGood from '@/views/detailGood'
 
 Vue.use(Router)
 
@@ -49,6 +50,10 @@ export default new Router({
         {
           path:'/index/swap',
           component:Swap
+        },
+        {
+          path:'/index/detailGood',
+          component:DetailGood
         }
       ]
     },

@@ -10,8 +10,10 @@
         <router-link tag="div" class="title-list" to="/index/swap">闲置交换</router-link>
       </div>
     </div>
-
-    <router-view/>
+    <transition name="slide-fade">
+      <router-view/>
+    </transition>
+    
   </div>
   
 </template>
@@ -68,5 +70,16 @@ export default {
   font-family: "MicrosoftYaHei-Bold";
   font-size: .16rem;
   color: #333333;
+}
+
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s ease;
+}
+.slide-fade-enter, .slide-fade-leave-to{
+  transform: translateX(10px);
+  opacity: 0;
 }
 </style>

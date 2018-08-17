@@ -21,7 +21,7 @@ body,html{
   background: #eee;
 }
 #app {
-  font-family: PingFangSC-Regular;
+  font-family: 'PingFangSC-Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

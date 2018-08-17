@@ -8,9 +8,9 @@
           <input type="text" class="search-input" placeholder="雅思兰戴">
         </div>
         
-        <button class="search-button">
+        <div class="search-button">
           <img src="../assets/images/search_2.svg" class="search-icon">
-        </button>
+        </div>
  
       </div>
       <div class="center-down">
@@ -20,7 +20,7 @@
       </div>
     </div>
     
-    <div class="top-right"><img src="../assets/images/shop.svg" class="right-shop"> 我的购物车</div>
+    <div class="top-right"><img src="../assets/images/shop.svg" class="right-shop"> <a class="right-cart">我的购物车</a> </div>
   </div>
 </template>
 
@@ -89,14 +89,13 @@ export default {
 }
 .search-input{
   width:5rem;
-  height:.32rem;
+  height:.30rem;
   outline: none;
 }
 .search-button{
   position: relative;
   width: .58rem;
   height: .34rem;
-  border: none;
   background: #EF4766;
 }
 .search-icon{
@@ -113,6 +112,7 @@ export default {
 
 .top-right{
   display: flex;
+  flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
   width: 1.85rem;
@@ -124,6 +124,8 @@ export default {
 .right-shop{
   width: .2rem;
   height:.2rem;
-  margin-right: 0.05rem;
+}
+.right-cart{
+  width:.9rem;
 }
 </style>

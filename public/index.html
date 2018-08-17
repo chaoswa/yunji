@@ -15,8 +15,13 @@
     <!-- built files will be auto injected -->
   </body>
   <script>
-    let html = document.getElementsByTagName('html')[0]
-    let htmlWidth = document.body.clientWidth || document.documentElement.clientWidth
-    html.style.fontSize = htmlWidth / 1920 * 100 + 'px'
+    function resize(){
+      let whdef=100/1920;
+      let html = document.getElementsByTagName('html')[0]
+      let htmlWidth = window.innerWidth;
+      // htmlWidth>2800?htmlWidth:htmlWidth=2800;
+      let rem=htmlWidth * whdef;
+      html.style.fontSize = rem + 'px'
+    } resize()
   </script>
 </html>

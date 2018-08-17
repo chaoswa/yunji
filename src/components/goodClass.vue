@@ -1,7 +1,7 @@
 <template>
-  <div class="good-list">
+  <div class="goods-list">
     <ul class="list-item">
-      <li v-for="(list,index) in lists">{{list}}<span v-if="index<2" class="item-icon"> / </span></li>
+      <li v-for="(item , index) in lists" :key="index">{{item}}<span v-if="index<2" class="item-icon"> / </span></li>
     </ul>
     <div class="list-icon">
       <img src="../assets/images/right.svg">
@@ -20,15 +20,16 @@ export default {
 </script>
 
 <style lang="less">
-.good-list{
+.goods-list{
   display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   width: 2rem;
   height: .34rem;
 }
 .list-item{
   font-family: 'PingFangSC-Regular';
-  font-size: 14px;
+  font-size: .14rem;
   color: #666666;
   width: 1.5rem;
   display:flex;

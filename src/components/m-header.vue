@@ -27,7 +27,7 @@ export default {
 .m-header{
   display: flex;
   justify-content: center;
-  width: 19.2rem;
+  width: 100%;
   height: .34rem;
   color: #FFFFFF;
   font-size: .12rem;
